@@ -1,0 +1,70 @@
+body{
+    border: 0px;
+    margin: 0px;    
+    padding: 0px;
+    display: flex;
+    width: 1080px;;
+    height:695px;
+    background-image: linear-gradient(to bottom right,rgb(255, 165, 0), rgb(0, 0, 128));
+}
+.text{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 50;
+    font-size: 25px;;
+    opacity: 70%;
+    left: 76%;
+}
+.name{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 2000;
+    font-size: 90px;;
+    font-style: normal;
+    opacity: 70%;
+    }
+.namebt{
+    background:transparent;
+    outline: none;
+    cursor: pointer;
+    border:hidden;
+    display: flex;
+    position: relative;
+    color: orange;
+}
+.namebt:hover{
+    color: black;
+}
+#inter{
+    position: absolute;
+    top: 5%;
+    left: 65%;
+        }
+#text{
+    position: absolute;
+    top: 50%;
+    left: 12%;  
+    width: 50%;
+    height: 50%;
+}
+.btu{
+    border: none;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 3%;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Jersey 10", sans-serif;
+    background-color: #ffce00;
+    left: 2%;
+}
+#cat2{
+    position: absolute;
+    left: 75%;
+    top: 30%;
+}
+.pf{
+    position: absolute;
+    align-content: center;
+}
