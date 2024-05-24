@@ -1,12 +1,8 @@
 body{
-    border: 0px;
-    margin: 0px;    
-    padding: 0px;
     display: flex;
-    width: 1080px;;
-    height:695px;
-    background-image: linear-gradient(to bottom right,rgb(255, 165, 0), rgb(0, 0, 128));
+    background-color: #131315;
 }
+
 .text{
     font-family: "Jersey 10", sans-serif;
     font-weight: 50;
@@ -14,57 +10,23 @@ body{
     opacity: 70%;
     left: 76%;
 }
-.name{
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 2000;
-    font-size: 90px;;
-    font-style: normal;
-    opacity: 70%;
-    }
-.namebt{
-    background:transparent;
-    outline: none;
-    cursor: pointer;
-    border:hidden;
-    display: flex;
-    position: relative;
-    color: orange;
+
+.infobox{
+    margin-top: 3.5%;
+    margin-left: 60%;
+    width: 400px;
+    height: 620px;
+    background-color: #202024;
+    border-radius: 2%;
 }
-.namebt:hover{
-    color: black;
-}
-#inter{
-    position: absolute;
-    top: 5%;
-    left: 65%;
-        }
-#text{
-    position: absolute;
-    top: 50%;
-    left: 12%;  
-    width: 50%;
-    height: 50%;
-}
-.btu{
-    border: none;
-    display: inline-block;
-    position: absolute;
+
+.imgbox{
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 3%;
-    text-align: center;
-    line-height: 50px;
-    font-family: "Jersey 10", sans-serif;
-    background-color: #ffce00;
-    left: 2%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 50px ;
+    margin-left: 120px;
 }
-#cat2{
-    position: absolute;
-    left: 75%;
-    top: 30%;
-}
-.pf{
-    position: absolute;
-    align-content: center;
-}
+
